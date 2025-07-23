@@ -1,3 +1,5 @@
+#include <iostream>
+#include <string>
 class BankAccount {
 private:
     int accountNumber;
@@ -15,3 +17,6 @@ public:
     double getBalance() const;
     std::string getAccountType() const;
 };
+
+//methods implementation
+int getint();
